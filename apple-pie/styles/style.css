@@ -34,11 +34,11 @@ body {
 
 .title {
   width: auto;
-  height: 450px;
+  height: 850px;
   background-image: url('../../apple-pie/images/apple-pie.jpg');
   background-size: cover;
   background-position: center center;
-  font-size: 30px;
+  font-size: 50px;
 
   text-align: center;
   color: white;
@@ -52,11 +52,18 @@ body {
 h2 {
   font-weight: 1000;
   margin-top: 50px;
+  font-size: 30px;
+}
+
+.recipe-introduction,
+.ingredients,
+.directions {
+  margin: 70px 120px 50px 120px;
 }
 
 .recipe-introduction {
-  font-size: 20px;
-  margin: 70px 50px 50px 50px;
+  font-size: 30px;
+  padding-top: 20px;
   padding-bottom: 25px;
   border-bottom-color: grey;
   border-bottom-style: solid;
@@ -67,7 +74,11 @@ h2 {
   border-bottom-color: grey;
   border-bottom-style: solid;
   line-height: 1.5;
-  margin: 70px 50px 50px 50px;
+}
+
+ol,
+ul {
+  font-size: 25px;
 }
 
 .info-images {
@@ -77,11 +88,7 @@ h2 {
 
 .info-images img {
   width: 45%;
-  margin: 20px 30px;
-}
-
-.directions {
-  margin: 70px 50px 50px 50px;
+  margin: 50px 30px 30px 30px;
 }
 
 ol {
